@@ -1,0 +1,22 @@
+
+.todoInput {
+  display: flex;
+  padding: 1rem 2rem;
+  gap: 1rem;
+}
+
+.todoInput > input {
+  min-height: 34px;
+  flex-grow: 1;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding-inline: 1rem;
+  background: #eee;
+}
+
+.todoInput > button {
+  padding-inline: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
