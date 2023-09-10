@@ -1,27 +1,57 @@
-# React + TypeScript + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Todo application built using React. It allows users to create, edit, and mark tasks as completed.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Folder Structure](#folder-structure)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
 
-## Expanding the ESLint configuration
+## Folder Structure
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The project structure is organized as follows:
 
-- Configure the top-level `parserOptions` property like this:
+react-todo-app/
+├── src/
+│ ├── components/ # React components
+│ ├── App.js # Main application component
+│ ├── index.js # Entry point
+│
+├── public/
+│ ├── index.html # HTML template
+│ ├── manifest.json # Web app manifest
+│
+├── package.json # Project dependencies and scripts
+├── README.md # Project documentation (you are here)
+└── ... # Other configuration files and assets
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. **Clone the repository** to your local machine:
+
+   ```bash
+   git clone https://github.com/Kavinkumar-97/react-todo-app.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd react-todo-app
+   ```
+
+3. Install the project dependencies using npm
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+Once you have installed the project dependencies, you can start the development server by running:
+
+```bash
+npm run dev
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
