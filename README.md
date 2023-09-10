@@ -12,6 +12,7 @@ This is a simple Todo application built using React. It allows users to create, 
 
 The project structure is organized as follows:
 
+```bash
 react-todo-app/
 ├── src/
 │ ├── components/ # React components
@@ -25,6 +26,7 @@ react-todo-app/
 ├── package.json # Project dependencies and scripts
 ├── README.md # Project documentation (you are here)
 └── ... # Other configuration files and assets
+```
 
 ## Getting Started
 
