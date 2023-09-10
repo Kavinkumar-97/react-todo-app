@@ -16,13 +16,12 @@ The project structure is organized as follows:
 react-todo-app/
 ├── src/
 │ ├── components/ # React components
-│ ├── App.js # Main application component
-│ ├── index.js # Entry point
+│ ├── interfaces/ # Interfraces
+│ ├── styles/ # Stylesheet for components
+│ ├── utils/ # Utils for app
+│ ├── main.tsx # Entry point
 │
-├── public/
-│ ├── index.html # HTML template
-│ ├── manifest.json # Web app manifest
-│
+├── index.html # HTML template
 ├── package.json # Project dependencies and scripts
 ├── README.md # Project documentation (you are here)
 └── ... # Other configuration files and assets
